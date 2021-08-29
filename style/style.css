@@ -27,6 +27,10 @@ li.dropdown {
     display: inline-block;
 }
 
+img{
+    align-content: center;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
