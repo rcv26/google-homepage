@@ -44,7 +44,7 @@ footer{
     justify-content: space-between;
     width: 100%;
     padding: 2px;
-    font-size: medium;
+    font-size: small;
     flex-direction: column;
     background-color: rgb(238, 238, 238);
 }
