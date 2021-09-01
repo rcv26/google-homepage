@@ -4,6 +4,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 13px;
 }
 
 #app a:hover{
@@ -16,8 +17,13 @@ li a {
 }
 
 #Search:hover, #Search:focus-within{
-    border-color: rgb(114, 135, 255);
+    border-color: rgb(52, 82, 255);
     box-shadow: 1 1px, 1px 1 rgba(114, 135, 255, 0.28);
+}
+
+#buttons:hover, #buttons:focus-within{
+    border-color: grey;
+    box-shadow: honeydew;
 }
 
 main{
