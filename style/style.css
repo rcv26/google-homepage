@@ -21,6 +21,15 @@ li a {
     box-shadow: 1 1px, 1px 1 rgba(114, 135, 255, 0.28);
 }
 
+.btn, .btn-light{
+    font-size: 14px;
+}
+
+.input-group-text{
+    background-color: white;
+    border: 0px;
+}
+
 #buttons:hover, #buttons:focus-within{
     border-color: grey;
     box-shadow: honeydew;
