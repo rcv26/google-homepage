@@ -48,3 +48,13 @@ footer{
     flex-direction: column;
     background-color: rgb(238, 238, 238);
 }
+
+.rightmargin{
+    display: flex;
+    margin-right: 0;
+}
+
+.leftmargin{
+    display: flex;
+    margin-left: 0;
+}
