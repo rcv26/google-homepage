@@ -11,7 +11,9 @@ li a {
     border-radius: 20px;
 }
 
-
+#searchbox {
+    border-radius: 25px;
+}
 
 #Search:hover, #Search:focus-within{
     border-color: rgb(114, 135, 255);
@@ -32,4 +34,17 @@ main{
     padding: 35px;
 }
 
-
+footer{
+    position: absolute;
+    border-top: rgb(92, 91, 91);
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2px;
+    font-size: medium;
+    flex-direction: column;
+    background-color: rgb(238, 238, 238);
+}
