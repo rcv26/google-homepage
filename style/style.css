@@ -7,7 +7,23 @@ li a {
 }
 
 #app a:hover{
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(238, 238, 238);
+    border-radius: 20px;
+}
+
+#Search, #searchbox{
+    border-radius: 25px;
+    border-collapse: collapse;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 55vh;
+    min-height: 300px;
+    margin-top: 50px;
 }
 
 
