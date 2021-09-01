@@ -1,13 +1,13 @@
-
-
-li a, .droptbn {
+li a {
     display: inline-block;
-    color: #666;
+    color: rgb(48, 48, 48);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover, .dropdown:hover ,.droptbn{
-    background-color: rgb(255, 255, 255);
+#app a:hover{
+    background-color: rgb(233, 233, 233);
 }
+
+
