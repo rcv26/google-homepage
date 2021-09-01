@@ -11,9 +11,11 @@ li a {
     border-radius: 20px;
 }
 
-#Search, #searchbox{
-    border-radius: 25px;
-    border-collapse: collapse;
+
+
+#Search:hover, #Search:focus-within{
+    border-color: rgb(114, 135, 255);
+    box-shadow: 1 1px, 1px 1 rgba(114, 135, 255, 0.28);
 }
 
 main{
@@ -23,7 +25,11 @@ main{
     justify-content: center;
     height: 55vh;
     min-height: 300px;
-    margin-top: 50px;
+    margin-top: 55px;
+}
+
+.container{
+    padding: 35px;
 }
 
 
