@@ -21,6 +21,15 @@ li a {
     box-shadow: 1 1px, 1px 1 rgba(114, 135, 255, 0.28);
 }
 
+#buttons:hover, #buttons:focus-within{
+    border-color: grey;
+    box-shadow: honeydew;
+}
+
+.container{
+    padding: 35px;
+}
+
 .btn, .btn-light{
     font-size: 14px;
 }
@@ -29,11 +38,15 @@ li a {
     background-color: white;
     border: 0px;
 }
+    
+.inputPaddingR {
+    padding-right: 70px;
+} 
 
-#buttons:hover, #buttons:focus-within{
-    border-color: grey;
-    box-shadow: honeydew;
-}
+.inputPaddingL {
+    padding-left: 70px;
+} 
+
 
 main{
     display: flex;
@@ -45,9 +58,6 @@ main{
     margin-top: 55px;
 }
 
-.container{
-    padding: 35px;
-}
 
 footer{
     position: absolute;
@@ -61,7 +71,3 @@ footer{
     background-color: rgb(238, 238, 238);
 }
 
-.marginright{
-    display: flex;
-    margin-right: 30px;
-}
