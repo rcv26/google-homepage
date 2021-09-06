@@ -28,6 +28,8 @@ li a {
 
 .container{
     padding: 35px;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 .btn, .btn-light{
@@ -38,15 +40,28 @@ li a {
     background-color: white;
     border: 0px;
 }
+
+.inner-addon {
+    position: relative;
+}
+.right-addon .glyphicon {
+    right: 0px;
+}
+.inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+.left-addon .glyphicon{
+  left:0px;
+}
+.left-addon input{
+  padding-left:  30px; 
+}
+.right-addon input{
+  padding-right:  30px; 
+}
     
-.inputPaddingR {
-    padding-right: 70px;
-} 
-
-.inputPaddingL {
-    padding-left: 70px;
-} 
-
 
 main{
     display: flex;
