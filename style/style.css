@@ -30,6 +30,14 @@ li a {
     padding: 35px;
     padding-left: 100px;
     padding-right: 100px;
+    
+}
+
+
+.bottomright{
+    position:fixed;
+  right: 16px;
+  font-size: 18px;
 }
 
 .input-group-text{
